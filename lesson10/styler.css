@@ -1,0 +1,71 @@
+
+/*Set the font family*/
+.fontTimes{
+    font-family: Times;
+}
+
+.fontCourier{
+    font-family: Courier;
+}
+
+/*Set the Font Size*/
+
+.normalize{
+    font-size: 100%;
+}
+
+.bigger{
+    font-size: 150%;
+}
+
+.smaller{
+    font-size: 50%;
+}
+
+.size1{
+    font-size: 2.0em;
+}
+
+/*Set the Font Style*/
+
+.normal{
+    font-style: normal;
+}
+
+.oblique{
+    font-style: oblique;
+}
+
+.italic{
+    font-style: italic;
+}
+
+/*Set the font Variant*/
+
+.fv-caps-small{
+    font-variant: small-caps;
+}
+
+.fv-normal{
+    font-variant: normal;
+}
+
+/*Font Boldness*/
+
+.bnormal{
+    font-weight: normal;
+}
+
+.bbold{
+    font-weight:bold;
+}
+
+.b600{
+    font-weight: 600;
+}
+
+/*Short hand definition*/
+
+.newfont{
+    font: small-caps italic 900 12px arial,sans_serif;
+}

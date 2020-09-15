@@ -1,0 +1,28 @@
+ul.disc{
+    list-style: disc;
+}
+
+ul.square{
+    list-style: square;
+}
+
+ul.circle{
+    list-style: circle;
+}
+
+ol.decimallead{
+    list-style:decimal-leading-zero ;
+}
+
+ol.armen{
+    list-style: armenian ;
+}
+
+ol.roman{
+    list-style: upper-roman ;
+}
+
+ul.image{
+    list-style-image: url(check.ico);
+
+}

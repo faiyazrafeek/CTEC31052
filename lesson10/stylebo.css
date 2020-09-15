@@ -1,0 +1,44 @@
+.solid{
+    border-style: solid;
+}
+
+.soliddouble{
+    border-style: solid double;
+}
+
+.doublesolid{
+    border-style: double solid;
+}
+
+.groovedouble{
+    border-style:groove double;
+}
+
+.threestyle{
+    border-style: solid double groove;
+}
+
+.fourstyle{
+    border-style: solid double groove dotted ;
+}
+
+.pad{
+    padding: 10px;
+    text-align: justify;
+    margin: 10px;
+}
+
+.alltop{
+    border-top: medium solid #ff0000;
+    padding-top: 6px;
+}
+
+.allbord{
+    border: medium double rgb(0,255,255) ;
+}
+
+.alloutline{
+    border: medium solid black;
+    outline-style: double;
+    outline-color: navy;
+}

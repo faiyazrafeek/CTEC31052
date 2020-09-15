@@ -1,0 +1,12 @@
+img.big{
+    height:190px;
+}
+
+img.small{
+    height: 30%;
+}
+
+img.maxh{
+    height: 50%;
+    max-height: 100px
+}

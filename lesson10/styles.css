@@ -1,0 +1,38 @@
+p.id1{
+    display: none;
+}
+
+p.id2{
+    display: inline;
+}
+
+span#id3{
+    display: block;
+}
+
+img.image1{
+    float: left;
+    height: 50px;
+    margin: 5px;
+    border: 1px dotted black;
+}
+
+img.image2{
+    float: right;
+    height: 50px;
+    margin: 5px;
+    border: 1px dotted black;
+}
+
+.div1{
+    float: right;
+    height: 50px;
+    margin: 0 0 15px 10px;
+    border: 1px dotted black;
+    padding: 6px;
+    text-align: center;
+}
+
+p{
+    text-align: justify;
+}

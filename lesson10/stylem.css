@@ -1,0 +1,23 @@
+p.margin{
+    margin: 1cm 2cm 5cm;
+}
+
+p.topmargin{
+    margin-top: 50%;
+}
+
+td.test1{
+    padding: 1.5cm;
+}
+
+td.test2{
+    padding: 0.5cm 2.5cm;
+}
+
+table,td,tr{
+    border: 3px solid black;
+}
+
+td.toppad{
+    padding-top:10%
+}

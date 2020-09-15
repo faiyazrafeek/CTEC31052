@@ -1,0 +1,78 @@
+<!doctype html>
+
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+        <title>HTML SVG</title>
+    </head>
+
+    <body>
+        <svg style="width:200; height:100; background-color: Green ;">
+            <text x="5" y="50" fill="#fff" style="font-size:35px; font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; ">SVG Text</text>
+        </svg>
+
+        <svg style="width:200; height: 200;">
+            <circle cx="50" cy="50" r="40" stroke="Green" stroke-width="6" fill="#ff22ff" />
+            <circle cx="100" cy="100" r="20" stroke="Black" stroke-width="3" fill="red" />
+        </svg>
+
+        <svg style="width:150; height: 200;">
+            <circle cx="55" cy="55" r="50" stroke="Green" stroke-width="10" fill="Black" />
+        </svg>
+
+        <svg style="width:400; height:100;">
+            <rect x=0 y=0 height=100 width=400 style="fill:#005522; stroke-width:10; stroke:Black;"/>
+            <rect x=70 y=25 height="50" width="50" fill="red" stroke-width="2" stroke="rgb(2,58,25)"/>
+            <rect x=175 y=25 height="50" width="50" rx="10" ry="10" style="fill:red; fill-opacity:0.5; stroke-width:2; stroke:rgb(2,58,25);" />
+            <rect x=280 y=25 height="50" width="50" style="fill:red ;stroke:rgb(2,58,25); stroke-width:2px; " />
+        </svg>
+
+        <svg style="width:200; height:200;">
+            <line x1="0" y1="0" x2="200" y2="200" style="stroke:rgb(255,0,0); stroke-width:3;" />
+        </svg>
+
+        <br><br>
+        
+        <h3>SVG Polygon </h3>
+        <svg width="120" height="130">
+            <polygon points="50,6,17,109,99,43,5,43,88,109"></polygon>>
+                <circle cx="50" cy="6" r="3" stroke="green" stroke-width="1" fill="green"></circle>        
+                <circle cx="17" cy="109" r="3" stroke="blue" stroke-width="1" fill="blue"></circle>
+                <circle cx="50" cy="6" r="3" stroke="green" stroke-width="1" fill="green"></circle>
+                <circle cx="99" cy="43" r="3" stroke="red" stroke-width="1" fill="red"></circle>        
+                <circle cx="5" cy="43" r="3" stroke="purple" stroke-width="1" fill="purple"></circle>
+                <circle cx="88" cy="109" r="3" stroke="grey" stroke-width="1" fill="grey"></circle>
+            </svg>
+
+        <h3>Ellipse</h3>
+        <svg height="150" width="800">
+            <ellipse cx="310" cy="80" rx="300" ry="50" fill="yellow" stroke="purple" stroke-width="4"/>
+        </svg>
+
+        <h3>Polyline</h3>
+
+        <svg height="180" width="500">
+            <polyline points="5,40,40,40,40,80,80,80,80,120,120,120" style="fill:white; stroke:red; stroke-width:3"></polyline>
+            <circle cx="5" cy="40" r="5" style="fill:blue;"/>
+            <circle cx="40" cy="40" r="5" style="fill:green;"/>
+            <circle cx="40" cy="80" r="5" style="fill:grey;"/>
+            <circle cx="80" cy="80" r="5" style="fill:pink;"/>
+            <circle cx="80" cy="120" r="5" style="fill:purple;"/>
+            <circle cx="120" cy="120" r="5" style="fill:red;"/>
+        </svg>
+
+        <svg width="200" height="200">
+            <g style="stroke:yellow; fill:red; stroke-width:3">
+                <circle id="pointA" cx="50" cy="50" r="20" />
+                <circle id="pointB" cx="100" cy="50" r="20" />
+                <circle id="pointC" cx="150" cy="50" r="20" />
+            </g>
+            
+        </svg>
+
+
+    </body>
+
+
+
+</html>

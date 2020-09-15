@@ -1,0 +1,21 @@
+body{
+    background: url(tick.png) no-repeat fixed center ;
+}
+
+span.highlight{
+    background-color:yellow;
+}
+
+div .cs_dec{
+    letter-spacing: -2px;
+    line-height: 90%;
+}
+
+div .cs_inc{
+    letter-spacing: 0.2cm ;
+    line-height: 200%;
+}
+
+.wrapdisable{
+    white-space: nowrap;
+}

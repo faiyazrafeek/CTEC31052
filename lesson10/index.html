@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Introduction</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+
+
+        p.style1{
+            font-size: 15pt;
+            text-align:center;
+            text-decoration:line-through;
+        }
+
+        p.style2{
+            font-size:20pt;
+            text-align:right;
+            font-weight:bold;
+        }
+
+        .style3{
+            color:blue;
+        }
+
+        input[type="text"]{
+            background-color:blueviolet;
+            color:white;
+            padding: 7px;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+        }
+        p#id1{
+            font-style:italic;
+        }
+        #id2{
+            color:aqua;
+        }
+        .style3{
+            color:blue;
+        }
+        div.style3{
+            background-color: #E0E0E0;
+            width: 185px;
+            height:275px;
+            margin-top:10px;
+            margin-right: 15px;
+            float: left;
+        }
+        div.heading{
+            background-color: #003399;
+            width: 185px;
+            margin-right: 15px;
+            position: relative;
+            top:-20px;
+        }
+
+        div.style3 p{
+            font-family: 'Times New Roman', Times, serif;
+            text-align: justify;
+            padding: 0.5em;
+            position: relative;
+            top: -20px;
+        }
+
+        div.heading h4{
+            font-family: times;
+            color: white;
+            text-align-last: center;
+            padding: 0.5em;
+        }
+        p{
+            color:green;
+        }
+    </style>
+
+</head>
+<body>
+    <h1>Heading 1</h1>
+    <h2>Heading 2</h2>
+    <h3>Heading 3</h3>
+    <h4>Heading 4</h4>
+    <h5>Heading Five</h5>
+
+    <h3>Class Selectors</h3>
+    <p>Useful to define different styles for the same tag type as well as for different tags.</p>
+    <p class="style1">Style 1 Paragraph</p>
+    <p class="style2">Style 2 Paragraph</p>
+    <p class="style1 style2">Paragraph with both styles</p>
+
+    <h3>Same style for different tag elements</h3>
+    <h2 class="style3">Style 3 Heading</h2>
+    <p class="style3" >Style 3 Paragraph</p>
+    <hr>
+    <h3>Add style to elements with particular attributes</h3>
+    <form>
+        Username : <input type="text"> Password : <input type="password">
+    </form>
+
+    <hr>
+    <h3>The Id selector</h3>
+    <p id="id1">Id 1 Paragraph</p>
+    <p class="style3"  id="id1">Id 1 Paragraph</p>
+    <h1 id="id2">Id 2 heading</h1>
+    <hr>
+    
+    <h3>Default Heading 4</h3>
+    
+    <div>
+        <h4>Default Heading 4</h4>
+    </div>
+
+    <div class="style3" style="margin-left:15px">
+        <div class="heading">
+            <h4>Tourism</h4>
+        </div>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. A hic dolores eaque sequi ad, quam excepturi! Maxime laudantium amet neque exercitationem quae in, animi autem dolor praesentium aspernatur corporis itaque?
+        </p>
+
+    </div>
+    <br>
+    <br>
+    <p>This is simple paragraph</p>
+    <p style="color:aqua">This is simple paragraph</p>
+    <p style="color:inherit;text-decoration:inherit">THis is a simple paragraph</p>
+</body>
+</html>

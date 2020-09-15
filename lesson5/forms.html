@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <h3>HTML Forms</h3>
+
+    <h4>Adding Text Fields</h4>
+        <form>
+            First Name : <input type="text" name="firstName">
+            <br><br>
+            Last Name : <input type="text" name="lastName" >
+        </form>
+
+    <h3>Adding passwof fields</h3>
+
+    <from>
+        Username : <input type="text" name="userName"> <br>
+        Password : <input type="password" name="password"> <br>
+        Address : <textarea name="address" cols="20" rows="5">Address here
+        </textarea>
+    </from>
+
+    <h3>Adding radio buttons</h3>
+
+    Username : <input type="text" name="username"> <br><br>
+    Password : <input type="password" name="password"> <br><br>
+    Gender : <input type="radio" name="sex" value="male"> Male
+                <input type="radio" name="sex" value="female"> Female
+
+    <h3>Grouping the radio buttons</h3>
+
+    Gender : <input type="radio" name="sex" value="male"> Male
+    <input type="radio" name="sex" value="female"> Female <br>
+    <input type="radio" name="sex2" value ="female"> Test
+
+    <hr>
+    <h3>Adding checkboxes</h3>
+    <p>
+        Tick on any type of documents to identify you : <br>
+        <input type="checkbox" name="privacy" value="NIC"> NIC <br>
+        <input type="checkbox" name="privacy" value="SRB"> Student Record Book <br>
+        <input type="checkbox" name="privacy" value="SIC" checked="checked"> Student Identity Card <br>
+        <input type="checkbox" name="privacy" value="BC"> Birth Certificate <br>
+    </p>
+
+    <h3>Simple Drop-down box</h3>
+
+    Usename : <input type="text" name="username"> <br> <br>
+    Gender :  <select name="gender" id="">
+        <option name="male">Male</option>
+        <option name="female" selected="selected">Female</option>
+    </select>
+
+    <h3>HTML Buttons</h3>
+
+    <form>
+        Username : <input type="text" name="username"> <br><br>
+        Password : <input type="password" name="password"> <br><br>
+        <input type="button" onclick="history.go(-1);" value="Back">
+    </form>
+
+
+    <h3>Adding submit & reset buttons</h3>
+
+    <form action="lists.html" method="get">
+        First Name : <input type="text" name="username"> <br> <br>
+        Last Name : <input type="text" name="lastname"> <br><br>
+        <input type="submit" value="Go to HTML lists"> <input type="reset" value="Clear">
+    </form>
+
+
+    <h3>Send email from the form</h3>
+
+    <form action="mailto:faiyazrafeek@gmail.com" method="get" enctype="multipart/form-data">
+        Subject : <input type="text" name="subject"> <br><br>
+        Body : <textarea name="body" rows="5" cols="15"></textarea> <br><br>
+        <input type="submit" value="Submit"> <input type="reset" value="Reset">
+    </form>
+    <br>
+    <fieldset>
+        <legend>
+            General Form
+        </legend>
+        <form>
+            Text : <input type="text" maxlength="3" required> <br><br>
+            Number : <input type="number" size="3" max="980" min="100"> <br><br>
+            Range : <input type="range" min="100" max="999"> <br><br>
+            File : <input type="file"> <br><br>
+            Date : <input type="date"> <br><br>
+            Date & Time : <input type="datetime"> <br><br>
+            Email : <input type="email"> <br><br>
+            Search : <input type="search" autofocus> <br><br>
+            URL : <input type="url" for > <br><br>
+            Week : <innput type="week"> <br><br>
+            Color : <input type="color">
+            <input type="submit"> 
+        </form>
+
+    </fieldset>
+<br><br>
+    
+    <form action="" id="form1">
+        <label for="fname">First Name : </label>
+        <input type="text" name="fname" id="fname"> <br><br>
+        <input type="submit" value="Submit">
+
+    </form>
+
+    <label for="lname">Last Name : </label>
+    <input type="text" form="form1" name="lname" id="lname">
+
+    <br><br>
+
+    <form action="iframe.html">
+        <input type="submit" formaction="image.html">
+
+        <input list="browsers">
+
+        <datalist id="browsers">
+            <option value="Internet Explorer">
+            <option value="Firefox">
+            <option value="Chrome">
+        </datalist>
+
+        <br>
+        <br>
+        <input type="file" id="files" name="files" multiple>
+        <br><br>
+        <input type="number" name="tpno" placeholder="076-401-5125" pattern="[0-9{10}]" >
+        <input type="number" step="5"> 
+        <input type="submit">
+
+    </form>
+
+
+
+    <br><br><br><br><br><br><br><br><br>
+
+</body>
+</html>

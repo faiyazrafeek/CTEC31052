@@ -1,0 +1,12 @@
+table.layout1{
+    border: 2px solid red;
+    table-layout: auto;
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 10px 45px;
+}
+
+
+table.layout1 tr,td{
+    border: 2px solid black;
+}
