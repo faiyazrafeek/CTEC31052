@@ -1,0 +1,101 @@
+a:link{
+    background-color: green;
+    color:white;
+}
+
+a:visited{
+    background-color: red;
+    color:yellow;
+    text-decoration: none;
+}
+
+a:hover{
+    background-color: yellow;
+    color: black;
+    text-decoration: none;
+}
+
+a:active{
+    background-color: blue;
+    color:white;
+}
+
+div.new{
+    position:relative;
+    left:50px;
+    margin: 30px;;
+}
+
+input[type=text]{
+    width:100px;
+    transition-property: all;
+    transition-duration: 0.35s;
+    transition-timing-function: ease-in;
+    display: block;
+    margin:10px;
+}
+
+input[type=text]:hover{
+    width:250px;
+    background-color:lightgrey;
+}
+
+input[type=checkbox]:checked{
+    width: 30px;
+    height: 30px;
+    background-color: red;
+}
+
+input[type=radio]:checked{
+    visibility: visible;
+    width:120px;
+}
+
+/*p:first-child{
+    background-color: yellow;
+    color:black;
+    font-weight:bold;
+}
+
+p > i:first-child{
+    color:blue;
+    background-color:red;
+}*/
+
+p:first-child i{
+    color: white;
+    background-color: blueviolet;
+    text-transform: uppercase;
+}
+
+q:lang(new){
+    quotes: "\"" "\"";
+}
+
+p.c2::first-letter{
+    font-size:250%;
+    line-height:0;
+    color: blueviolet;
+    font-family: cursive;
+    vertical-align: baseline;
+}
+
+p.c2::before{
+    content:url(check.ico);
+}
+
+p.c2::after{
+    content:url(check.ico);
+    line-height: 0;
+    vertical-align: top;
+}
+
+p{
+    text-align: justify;
+}
+
+::selection{
+    background-color: blueviolet;
+    color:white;
+}
+
